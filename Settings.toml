@@ -1,0 +1,14 @@
+[app]
+summary_size = 10
+channel_capacity = 100
+
+[binance]
+currency_pair = "ethbtc"
+depth = 20
+latency = "100ms"
+
+[bitstamp]
+currency_pair = "ethbtc"
+
+[server]
+address = "127.0.0.1:50051"
